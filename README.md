@@ -4,12 +4,12 @@
 
 A simple and beautiful unique slug generator for Laravel eloquent model.
 
----
+------
 
 ## Installation
 
 ```sh
-composer require fahad/laravel-unique-slug
+composer require fahadchy/laravel-unique-slug
 ```
 
 ## Configuration
