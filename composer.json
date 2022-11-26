@@ -1,7 +1,12 @@
 {
     "name": "fahadchy24/laravel-unique-slug",
     "description": "A simple and beautiful unique slug generator for Laravel eloquent model.",
-    "type": "composer-plugin",
+    "keywords": [
+        "laravel_unique_slug",
+        "laravel",
+        "laravel-unique-slug"
+    ],
+    "homepage": "https://github.com/fahadchy24/laravel-unique-slug-generator",
     "license": "MIT",
     "autoload": {
         "psr-4": {
