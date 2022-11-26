@@ -1,0 +1,31 @@
+{
+    "name": "fahad/laravel-unique-slug",
+    "description": "A simple and beautiful unique slug generator for Laravel eloquent model.",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fahad\\LaravelUniqueSlug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fahad Ahmed Chowdhury",
+            "email": "fahadchy24@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fahad\\LaravelUniqueSlug\\UniqueSlugServiceProvider"
+            ],
+            "aliases": {
+                "UniqueSlug": "Fahad\\LaravelUniqueSlug\\UniqueSlug"
+            }
+        }
+    }
+}
