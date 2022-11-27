@@ -124,7 +124,7 @@ public function generate(
 #### Publish configuration
 
 ```sh
-php artisan vendor:publish fahad/laravel-unique-slug
+php artisan vendor:publish --provider="Fahad\LaravelUniqueSlug\UniqueSlugServiceProvider"
 ```
 
 #### Configurations
